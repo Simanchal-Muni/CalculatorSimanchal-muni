@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>jQuery-bootstrap calculator</title>
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/43258373?s=96&v=4" />
+<!-- bootstrap -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.2.0/morph/bootstrap.min.css">
+<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+    <script src="app.js"></script> 
+    <div class="container">
+    <div class="row outer">
+        <div class="col">
+            <div class = "calculator-area mx-auto justify-content-center border border-primary text-center">
+            <div class = "history col-12">
+                <div class="logo">
+                    Calculator
+                </div>
+                <div class="below-logo">
+                    <input type="text" class="border border-primary form-control-sm text-center history-screen" disabled/>
+                </div>
+            </div>
+        <div class="row">
+                <input type="text" class="input-screen border border-primary form-control-lg col-9 text-end" disabled/>
+                <button type="button" class="btn btn-outline-danger reset col" value="reset">RESET</button>
+        </div>
+        <div class="row">
+            <button type="button" class="btn btn-outline-secondary col" value="7">7</button>
+            <button type="button" class="btn btn-outline-secondary col" value="8">8</button>
+            <button type="button" class="btn btn-outline-secondary col" value="9">9</button>
+            <button type="button" class="btn btn-outline-primary col" value="+">+</button>
+        </div>
+        <div class="row">
+            <button type="button" class="btn btn-outline-secondary col" value="4">4</button>
+            <button type="button" class="btn btn-outline-secondary col" value="5">5</button>
+            <button type="button" class="btn btn-outline-secondary col" value="6">6</button>
+            <button type="button" class="btn btn-outline-primary col" value="-">-</button>
+        </div>
+        <div class="row">
+            <button type="button" class="btn btn-outline-secondary col" value="1">1</button>
+            <button type="button" class="btn btn-outline-secondary col" value="2">2</button>
+            <button type="button" class="btn btn-outline-secondary col" value="3">3</button>
+            <button type="button" class="btn btn-outline-primary col" value="x">x</button>
+        </div>
+        <div class="row">
+            <button type="button" class="btn btn-outline-secondary col mod" value="%">mod</button>
+            <button type="button" class="btn btn-outline-secondary col" value="0">0</button>
+            <button type="button" class="btn btn-outline-secondary col" value=".">.</button>
+            <button type="button" class="btn btn-outline-primary col" value="/">&divide;</button>
+        </div>
+        <div class="row">
+            <button type="button" class="btn btn-outline-success col-8" value="=">=</button>
+            <button type="button" class="btn btn-outline-primary col-3" value="+-">+/-</button>
+        </div>
+    </div>
+        </div>
+    </div>
+
+</div>
+        
+</body>
+
+</html>
